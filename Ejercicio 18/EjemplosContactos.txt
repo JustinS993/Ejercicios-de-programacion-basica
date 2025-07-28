@@ -1,0 +1,55 @@
+# Ejemplos de Contactos para Probar la Aplicación
+
+## Contacto 1
+Nombres: Juan Carlos
+Apellidos: García López
+Fecha de Nacimiento: 15/03/1990
+Dirección: Calle 123 #45-67, Bogotá
+Teléfono: +57 300 123 4567
+Correo: juan.garcia@email.com
+
+## Contacto 2
+Nombres: María Fernanda
+Apellidos: Rodríguez Martínez
+Fecha de Nacimiento: 22/07/1985
+Dirección: Carrera 45 #12-34, Medellín
+Teléfono: +57 310 987 6543
+Correo: maria.rodriguez@email.com
+
+## Contacto 3
+Nombres: Carlos Alberto
+Apellidos: Pérez Sánchez
+Fecha de Nacimiento: 08/12/1992
+Dirección: Avenida 68 #23-45, Cali
+Teléfono: +57 320 456 7890
+Correo: carlos.perez@email.com
+
+## Contacto 4
+Nombres: Ana Sofía
+Apellidos: Hernández Torres
+Fecha de Nacimiento: 30/05/1988
+Dirección: Transversal 15 #67-89, Barranquilla
+Teléfono: +57 315 234 5678
+Correo: ana.hernandez@email.com
+
+## Contacto 5
+Nombres: Luis Miguel
+Apellidos: Vargas Castro
+Fecha de Nacimiento: 14/09/1995
+Dirección: Diagonal 25 #34-56, Bucaramanga
+Teléfono: +57 305 678 9012
+Correo: luis.vargas@email.com
+
+---
+
+## Instrucciones de Uso:
+1. Abra la aplicación ContactosApp
+2. Ingrese los datos de cada contacto en los campos correspondientes
+3. Presione el botón "Agregar" para añadir cada contacto
+4. Observe cómo se van agregando a la lista inferior
+
+## Notas:
+- Los campos "Nombres" y "Apellidos" son obligatorios
+- Los demás campos son opcionales
+- La fecha se puede seleccionar usando el calendario
+- Después de agregar cada contacto, los campos se limpian automáticamente
