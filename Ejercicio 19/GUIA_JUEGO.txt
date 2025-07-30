@@ -1,0 +1,202 @@
+🏁 GUÍA DEL JUEGO DE BANDERAS - EJERCICIO 9.2 (VERSIÓN MEJORADA)
+================================================================
+
+📋 INSTRUCCIONES DETALLADAS
+---------------------------
+
+1. OBJETIVO DEL JUEGO:
+   - Relacionar cada país con su bandera correspondiente
+   - Las banderas están numeradas del 1 al 10
+   - Debes escribir el número correcto en el campo de cada país
+   - ¡NUEVO! Cada partida es diferente - países y banderas se mezclan aleatoriamente
+
+2. CÓMO JUGAR:
+   a) Observa los 10 países listados en la primera columna
+   b) Mira las 10 banderas numeradas en la tercera columna
+   c) En los campos de texto, escribe el número de la bandera que corresponde a cada país
+   d) Presiona "🔍 VERIFICAR RESPUESTAS" para ver tu puntuación
+   e) ¡NUEVO! Presiona "🎲 NUEVO JUEGO ALEATORIO" para una nueva combinación
+
+3. INTERPRETACIÓN DE RESULTADOS:
+   - 🟢 Campo VERDE: Respuesta correcta
+   - 🔴 Campo ROJO: Respuesta incorrecta
+   - 🟡 Campo AMARILLO: Respuesta inválida (no es un número)
+   - ⚪ Campo SIN COLOR: Campo vacío (no se evalúa)
+
+🎯 PAÍSES Y BANDERAS DISPONIBLES
+--------------------------------
+
+Países que pueden aparecer en el juego (selección aleatoria de 10):
+
+1. México     → (Verde, Blanco, Rojo)
+2. España     → (Rojo, Amarillo, Rojo)
+3. Francia    → (Azul, Blanco, Rojo)
+4. Italia     → (Verde, Blanco, Rojo)
+5. Alemania   → (Negro, Rojo, Amarillo)
+6. Brasil     → (Verde, Amarillo, Azul)
+7. Argentina  → (Azul, Blanco, Azul)
+8. Reino Unido → (Azul, Blanco, Rojo)
+9. Japón      → (Blanco, Rojo, Blanco)
+10. Canadá    → (Rojo, Blanco, Rojo)
+
+⚠️ IMPORTANTE: Las respuestas correctas cambian en cada partida debido a la aleatorización.
+
+📚 DATOS CURIOSOS SOBRE LAS BANDERAS
+------------------------------------
+
+🇲🇽 MÉXICO:
+   - Verde: Esperanza
+   - Blanco: Pureza
+   - Rojo: Sangre de los héroes
+   - Escudo: Águila devorando una serpiente
+
+🇪🇸 ESPAÑA:
+   - Rojo y amarillo: Colores tradicionales
+   - Proporción: 2:3
+   - Escudo: Coat of arms de España
+
+🇫🇷 FRANCIA:
+   - Azul: Libertad
+   - Blanco: Igualdad
+   - Rojo: Fraternidad
+   - También llamada "Tricolor"
+
+🇮🇹 ITALIA:
+   - Verde: Esperanza
+   - Blanco: Fe
+   - Rojo: Caridad
+   - Inspirada en la bandera francesa
+
+🇩🇪 ALEMANIA:
+   - Negro: Determinación
+   - Rojo: Valor
+   - Amarillo: Generosidad
+   - Adoptada en 1949
+
+🇧🇷 BRASIL:
+   - Verde: Bosques
+   - Amarillo: Recursos minerales
+   - Azul: Cielo
+   - Lema: "Ordem e Progresso"
+
+🇦🇷 ARGENTINA:
+   - Azul celeste: Cielo
+   - Blanco: Nubes
+   - Sol: Sol de Mayo
+   - Creada por Manuel Belgrano
+
+🇬🇧 REINO UNIDO:
+   - Union Jack: Unión de cruces
+   - San Jorge (Inglaterra): Cruz roja
+   - San Andrés (Escocia): Cruz blanca
+   - San Patricio (Irlanda): Cruz roja diagonal
+
+🇯🇵 JAPÓN:
+   - Blanco: Pureza y honestidad
+   - Rojo: Sol naciente
+   - Llamada "Hinomaru"
+   - Una de las más simples del mundo
+
+🇨🇦 CANADÁ:
+   - Rojo: Sacrificio y valor
+   - Blanco: Paz y tranquilidad
+   - Hoja de arce: Símbolo nacional
+   - Adoptada en 1965
+
+🎮 ESTRATEGIAS PARA MEJORAR
+---------------------------
+
+1. MEMORIZACIÓN:
+   - Asocia colores con países
+   - Recuerda patrones (vertical vs horizontal)
+   - Usa mnemotécnicos
+   - Aprende datos históricos de cada bandera
+
+2. PRÁCTICA:
+   - Juega múltiples partidas aleatorias
+   - Cronométrate para mejorar velocidad
+   - Estudia geografía mundial
+   - Usa el botón "Nuevo Juego" para más práctica
+
+3. OBSERVACIÓN:
+   - Fíjate en el orden de los colores
+   - Nota las diferencias sutiles
+   - Compara banderas similares (México vs Italia)
+   - Usa el hover sobre banderas para pistas visuales
+
+4. NUEVAS CARACTERÍSTICAS:
+   - Aprovecha la aleatorización para mejor aprendizaje
+   - Cada partida es un desafío diferente
+   - 10 países ofrecen más variedad que los 5 originales
+
+🏆 SISTEMA DE PUNTUACIÓN
+------------------------
+
+Porcentaje de aciertos:
+- 100%: ¡Excelente! Experto en banderas 🏆
+- 80-99%: ¡Muy bien! Casi perfecto 🥈
+- 60-79%: Bien, pero puedes mejorar 🥉
+- 40-59%: Regular, sigue practicando 📚
+- 0-39%: Necesitas estudiar más 📖
+
+🔧 SOLUCIÓN DE PROBLEMAS
+------------------------
+
+Si la aplicación no funciona:
+
+1. VERIFICAR JAVA:
+   - Ejecuta: java -version
+   - Debe mostrar Java 11 o superior
+
+2. VERIFICAR JAVAFX:
+   - Busca carpeta: C:\javafx-sdk\lib
+   - Si no existe, instala JavaFX SDK
+
+3. COMPILACIÓN MANUAL:
+   javac --module-path "C:\javafx-sdk\lib" --add-modules javafx.controls *.java
+   java --module-path "C:\javafx-sdk\lib" --add-modules javafx.controls BanderasApp
+
+4. USAR INSTALADOR AUTOMÁTICO:
+   - Ve al Ejercicio 18
+   - Ejecuta: instalar_dependencias.ps1
+
+📖 COMPONENTES JAVAFX UTILIZADOS
+--------------------------------
+
+Este ejercicio demuestra el uso de:
+
+- GridPane: Layout en cuadrícula
+- Label: Texto estático
+- TextField: Entrada de texto
+- Button: Botón interactivo
+- VBox/HBox: Contenedores lineales
+- DropShadow: Efecto visual
+- CSS Styling: Estilos personalizados
+- Event Handling: Manejo de eventos
+
+🌟 CARACTERÍSTICAS IMPLEMENTADAS
+--------------------------------
+
+✅ NUEVAS FUNCIONALIDADES:
+
+1. ✅ Más países: 10 países en lugar de 5
+2. ✅ Aleatorización: Cada partida es diferente
+3. ✅ Botón "Nuevo Juego": Reinicia con nueva combinación
+4. ✅ Interfaz mejorada: Mejor distribución visual
+5. ✅ Hover effects: Efectos visuales al pasar el mouse
+6. ✅ Ventana más grande: 900x700 para acomodar más contenido
+
+🔮 EXTENSIONES FUTURAS POSIBLES:
+
+1. Diferentes niveles de dificultad
+2. Temporizador
+3. Imágenes reales de banderas
+4. Sonidos y animaciones
+5. Base de datos de puntuaciones
+6. Modo multijugador
+7. Banderas de estados/provincias
+8. Más países (África, Asia, Oceanía)
+
+===============================================
+¡Diviértete aprendiendo sobre banderas del mundo!
+===============================================
